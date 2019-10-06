@@ -1,0 +1,9 @@
+(.devops) karim@karim-ThinkPad-X250:~/Desktop/DevOps_Microservices/project-ml-microservice-kubernetes$ sudo ./run_kubernetes.sh 
+kubectl run --generator=deployment/apps.v1 is DEPRECATED and will be removed in a future version. Use kubectl run --generator=run-pod/v1 or kubectl create instead.
+Error from server (AlreadyExists): deployments.apps "microservice" already exists
+NAME                            READY   STATUS    RESTARTS   AGE
+microservice                    1/1     Running   1          13h
+microservice-5f87998577-vvnzf   1/1     Running   1          12h
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
